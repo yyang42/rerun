@@ -10,7 +10,7 @@ from .options import get_parser, parse_args, validate
 
 
 SKIP_DIRS = ['.svn', '.git', '.hg', '.bzr', 'build', 'dist']
-SKIP_EXT = ['.pyc', '.pyo']
+SKIP_EXT = ['.pyc', '.pyo', '.swp']
 
 try:
     # Python2
